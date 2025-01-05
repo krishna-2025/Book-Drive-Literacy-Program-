@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Drive and Literary Program Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block; /* Centering the button */
+            margin: 20px auto; /* Centering the button */
+            width: 50%; /* Adjusting width for better appearance */
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Book Drive and Literary Program Registration</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="635c8cbc-0b0b-413a-aa28-6292b63282dc" />
+            <input type="hidden" name="subject" value="New Join Us Form Submission from Book drive and literary program website" />
+            <input type="hidden" name="from_name" value="Book Drive and Literary Program Website" />
+
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+            <label for="email">Email Address :</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number :</label>
+            <input type="text" id="phone" name="phone" placeholder="+1(234) 56789" required>
+
+            <label for="address">Address :</label>
+            <input type="text" id="address" name="address" placeholder="Your Address"required>
+
+            <label for="books">Books to Donate :</label>
+            <textarea id="books" name="books" rows="4" placeholder="Books to Donate" required></textarea>
+
+            <label for="interests">Literary Program Interests :</label>
+            <textarea id="interests" name="interests" rows="4" placeholder="Example: Book Clubs, Workshops, Author Talks"></textarea>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+</body>
+</html>
