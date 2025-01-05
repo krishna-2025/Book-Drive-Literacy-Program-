@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0073e6; /* blue background */ 
+    color: white; /* White text */
+    padding: 5px; /* Padding around the header */
+    text-align: center; /* Centered text */
+    margin: 0;
+    border-width: 0;
+}
+
+nav {
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+nav ul {
+    display: flex; /* Use flexbox for horizontal layout */
+    list-style-type: none; /* Remove bullet points */
+    padding: 5px; /* Remove padding */
+    margin: 0;
+    border-width: 0;
+}
+
+nav ul li {
+    flex: 1; /* Each item takes equal space */
+    text-align: center; /* Center text within each item */
+}
+
+nav ul li a {
+    display: block; /* Make the link fill the entire list item */ 
+    color: white; /* White text for links */
+    margin: 0;
+    border-width: 0;
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px; /* Add padding for better click area */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #33b249; /* green on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}    
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #4681f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db5f12;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styling the events section */
+.event-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.event-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering images in header and about sections */
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.image img {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
