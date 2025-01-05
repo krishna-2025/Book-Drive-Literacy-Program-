@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Drive and Literacy Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Book Drive and Literacy Program</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#donate">Donate Books</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+       <marquee><h2 style="text-align: center;">Empowering Communities Through Literacy</h2></marquee>
+        <div class="image-container">
+            <img src="image1.jpeg" alt="Book Drive Event 1" width="32%" height="250">
+            <img src="image2.jpeg" alt="Book Drive Event 2" width="32%" height="250">
+            <img src="image3.jpeg" alt="Book Drive Event 3" width="32%" height="250">
+            </div>
+            
+        <p>Welcome to the Book Drive & Literary Program! We are a non-profit organization dedicated to promoting literacy and fostering a love for reading in our community.</p> 
+        <p>Join us in promoting education and making books accessible to all! Whether you want to donate books, participate in our programs, or volunteer with us, there are many ways to get involved.</p> 
+        <p>Together, we can make a difference in our community and inspire a love for reading in everyone!</p>
+        <a href="#about" class="cta-btn">Learn More</a>
+    </section>
+
+    <section id="about">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>We are dedicated to promoting literacy and providing access to books for all. Join us in our mission to spread the joy of reading.</p>
+                <p>Our mission is to collect and distribute books to underserved communities while providing engaging literary programs that inspire individuals of all ages to read, write, and express themselves creatively.</p> 
+                <h3>How It Works</h3>
+                <ul>
+                    <li>We collect new and gently used books from donors.</li>
+                    <li>Books are sorted and distributed to schools and libraries.</li>
+                    <li>Volunteers engage in reading sessions and literacy programs.</li>
+                </ul>
+                <h3>Our Impact</h3>
+                <p>We have donated over 2,000 books to children and adults in need, helping improve literacy in our community.</p>
+            </div>
+    </section>
+
+    <section id="donate">
+        <h2>Donate Books </h2>
+<p>Your donation can make a difference! Fill out the form below to donate books and we'll get back to you as soon as possible.</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="635c8cbc-0b0b-413a-aa28-6292b63282dc" />
+    <input type="hidden" name="subject" value="New Donation Form Submission from Book drive and literary program website" />
+    <input type="hidden" name="from_name" value="Book Drive and Literary Program Website" />
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"  placeholder="Your Email" required>
+
+            <label for="phone">Phone :</label>
+            <input type="text" id="phone" name="phone" placeholder="+1(234) 56789" required>
+
+            <label for="books">Books To Donate :</label>
+            <textarea id="books" name="books" rows="4" placeholder="Book to donate"required></textarea>
+
+            <button id="submit" type="submit">Submit Donation</button>
+        </form>
+</section>
+
+    <section id="events" class="section-padding">
+        <h2 style="text-align: center;">Upcoming Events</h2>
+        <div class="event-list">
+            <div class="event-card">
+                <h3>Winter Book Drive</h3>
+                <p>Date: December 15, 2024</p>
+                <p>Location: Local Library</p>
+                <p>Donate gently used or new books for all ages.</p>
+                <a href="form.html" class="cta-btn">Join Us</a>
+            </div>
+
+            <div class="event-card">
+                <h3>Read for a Cause</h3>
+                <p>Date: January 20, 2025</p>
+                <p>Location: Community Center</p>
+                <p>Volunteer to read to children and join fun literacy games.</p>
+                <a href="form.html" class="cta-btn">Join Us</a>
+            </div>
+
+            <div class="event-card">
+                <h3>Literacy Workshop for Adults</h3>
+                <p>Date: February 10, 2025</p>
+                <p>Location: Senior Center</p>
+                <p>Join us for a free workshop aimed at improving adult literacy skills.</p>
+                <a href="form.html" class="cta-btn">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Add: Plot No. 337, Sewree Wadala Estate, Major R. Parameshwaran Marg, Mumbai - 400 031</p>
+        <p>Email: info@bookdrive.org</p>
+        <p>Phone: 022-2418 0390</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Book Drive and Literacy Program</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
